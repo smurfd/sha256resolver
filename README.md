@@ -2,7 +2,6 @@
 Can you resolve a sha256 hash back to text?
 
 # SHA256
-========
 
 I set out for an interesting goal for the summer. To be able to reverse a SHA256 hash.
 
@@ -256,3 +255,17 @@ Throughout all this i have for the longest time tried to stay away from searchin
 That would be a good social experiment on coding companies. Turn off external internet access for a month, to see how it would affect things getting done ;)
 
 Will clean out the code and put it up here later, it is not PG-13 right now.
+
+# Ideas to Speedify things
+
+[Loop optimization](https://en.wikipedia.org/wiki/Loop_optimization)
+
+[Loop unrolling](https://en.wikipedia.org/wiki/Loop_unrolling)
+
+[Loop splitting](https://en.wikipedia.org/wiki/Loop_splitting)
+
+[Duffs device](https://en.wikipedia.org/wiki/Duff%27s_device)
+
+[Loop fission and fusion](https://en.wikipedia.org/wiki/Loop_fission_and_fusion)
+
+[nuclear-processing](https://github.com/flatmax/nuclear-processing)

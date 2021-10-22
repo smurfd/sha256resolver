@@ -1,0 +1,4 @@
+/home/rumrogers/Code/Github/smurfd/sha256resolver/8_cuda/libnvvm-samples/install/bin/ptxgen
+/home/rumrogers/Code/Github/smurfd/sha256resolver/8_cuda/libnvvm-samples/install/bin/simple
+/home/rumrogers/Code/Github/smurfd/sha256resolver/8_cuda/libnvvm-samples/install/bin/simple-gpu.ll
+/home/rumrogers/Code/Github/smurfd/sha256resolver/8_cuda/libnvvm-samples/install/bin/simple-gpu64.ll

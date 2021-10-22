@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rumrogers/Code/Github/smurfd/sha256resolver/8_cuda/libnvvm-samples/ptxgen/ptxgen.c
+nvvm.h
+-
+stdio.h
+-
+string.h
+-
+sys/stat.h
+-
+
+/usr/local/cuda-11.4/nvvm/include/nvvm.h
+stdlib.h
+-
+
