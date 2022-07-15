@@ -2,11 +2,13 @@
 // Author of above gist: Luka Vidakovi?
 // Website: http://www.lukavidakovic.com
 
+// Segfaults on mac, works on linux
+
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
 
-#define LENGTH 4
+#define LENGTH 5
 int clength = 1, co, i;
 char charset[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 char pw[] = "qXaY";
@@ -15,7 +17,7 @@ char **base = NULL;
 
 void expandArray(char **baseArray, char* symbols, int length) {
   baseArray = (char**) realloc(baseArray, sizeof(char*)*(length+1));
-  for(int i=0; i<=length; i++) {
+  for(int i=0; i<length; i++) {
     baseArray[i] = symbols;
   }
 }
@@ -35,6 +37,7 @@ int main() {
 
   while (clength <= LENGTH) {
     while (charsetptr < charsetend) {
+      printf("c : %s %s\n", charsetptr, charsetend);
       base[clength - 1] = charsetptr++;
       if (checkArray(base, clength) == 0)
         printf("FOUND ... exiting\n");

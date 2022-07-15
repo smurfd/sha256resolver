@@ -88,26 +88,5 @@ int main() {
   fork1();
   printf("---------\n");
   fork2();
-/*
-   int a[15] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 , 11, 12, 13, 14, 15};
-   int odd_sum = 0, even_sum = 0, n, i;
-   n = fork(); //subdivide process
-   if (n > 0) { //when n is not 0, then it is parent process
-      for (int i : a) {
-         if (i % 2 == 0)
-         even_sum = even_sum + i;
-         sleep(2);
-      }
-      printf("parent process\n");
-      printf("sum of even numbers: %d\n", even_sum);
-   } else { //when n is 0, then it is child process
-      for (int i : a) {
-         if (i % 2 != 0)
-            odd_sum = odd_sum + i;
-         sleep(2);
-      }
-      printf("Child process\n");
-      printf("sum of odd numbers: %d\n", odd_sum);
-   }*/
   return 0;
 }

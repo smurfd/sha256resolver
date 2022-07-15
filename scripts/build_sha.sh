@@ -2,7 +2,7 @@
 
 # install crypto++
 # sudo emerge -vaD crypto++
-g++ -DNDEBUG -g3 -O3 -Wall -Wextra -o sha sha.cc -l:libcryptopp.so
+g++ -DNDEBUG -g3 -O3 -Wall -Wextra -o scripts/build/sha src/sha.cc -l:libcryptopp.so
 
 # then run ./sha and you should get this output:
 # name: SHA-256
