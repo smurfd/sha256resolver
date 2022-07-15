@@ -27,7 +27,7 @@ int checkArray(char **baseArray, int len) {
   for(int i=0; i<len; i++)
     str[i] = *baseArray[i];
 
-  // printf("%s\n", str); // enable for debugging output
+  //  printf("%s\n", str); // enable for debugging output
   return strcmp(str, pw);
 }
 

@@ -4,7 +4,7 @@ import pycuda.driver as drv
 import numpy
 from pycuda.compiler import SourceModule
 
-os.environ['PATH'] = os.environ['PATH']+":/usr/local/cuda-11.4/bin"
+os.environ['PATH'] = os.environ['PATH']+":/usr/local/cuda-11.7/bin"
 print(os.environ['PATH'])
 
 mod = SourceModule("""

@@ -10,12 +10,12 @@ import pycuda.driver as driver
 import pycuda.gpuarray as gpuarray
 import pycuda.reduction
 
-os.environ['PATH'] = os.environ['PATH']+":/usr/local/cuda-11.4/bin"
+os.environ['PATH'] = os.environ['PATH']+":/usr/local/cuda-11.7/bin"
 
 print(os.environ['PATH'])
 
 if __name__ == '__main__':
-    array_size = 10000000000 
+    array_size = 1000000
 
     print(array_size)
     start, end = driver.Event(), driver.Event()
